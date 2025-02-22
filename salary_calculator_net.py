@@ -59,5 +59,5 @@ if net_salary is not None:
     if gross_salary is not None:
         print(f"Годовая зарплата после налогообложения: {net_salary*12}")
         print(f"Месячная зарплата до налогообложения: {gross_salary}")
-        print(f"Годовая зарплата после налогообложения: {gross_salary*12}")
+        print(f"Годовая зарплата до налогообложения: {gross_salary*12}")
         print(f"Годовой налог: {gross_salary*12-net_salary*12}")
